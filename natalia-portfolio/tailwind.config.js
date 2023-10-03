@@ -13,9 +13,19 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       colors: {
-        newPink: {
+        maincolor: {
+          800: '#18293c',
+        },
+        newpink: {
+          100: '#FCEFFA', // 3
           200: '#efa2b4',
           500: '#e02f6b',
+        },
+        bluegrad: {
+          50: '#F0FBF4', // 5
+          100: '#E8E9FB', // 2
+          200: '#EAFBFB', // 4
+          300: '#BFE0FB', // 1
         },
       },
     },
