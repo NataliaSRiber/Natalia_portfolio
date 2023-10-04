@@ -472,7 +472,7 @@ export default function Projects() {
               <h4 className="font-regular text-lg text-gray-600 md:pb-8 md:text-xl">
                 Esse projeto foi bem interessante e desafiador. Agora pretendo
                 trabalhar mais nos designs e desenvolver o design para as telas
-                de tamanhos diferentes
+                de tamanhos diferentes.
               </h4>
             </div>
           </div>

@@ -18,14 +18,12 @@ export default function Home() {
             Natalia
           </h1>
           <p className="text-lg font-normal">
-            Desenvolvedora Full Stack com mais de um ano de experiência,
-            apaixonada por UX Design buscando uma recolocação no mercado de
-            trabalho. Sou uma pessoa criativa e que gosta de trabalhar com
-            pessoas. Sempre busco aprender coisas novas e me inovar.
+            Desenvolvedora Full Stack com mais de um ano de experiência, com
+            conhecimentos em UX Design buscando uma recolocação no mercado de
+            trabalho.
           </p>
         </div>
       </div>
-
       <div className="h-0.5 w-full bg-gradient-to-r from-newpink-200 via-newpink-100 to-newpink-200"></div>
     </main>
   )
