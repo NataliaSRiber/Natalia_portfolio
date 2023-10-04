@@ -9,7 +9,7 @@ export default function Homebanner() {
       <div className="container mx-auto pb-2 pt-20"></div>
       <div className="container mx-auto w-full pb-16">
         <div className="pb-10 text-center">
-          <h1 className="px-2 text-xl font-semibold text-maincolor-800 md:text-5xl">
+          <h1 className="px-2 text-xl font-semibold text-maincolor-800 md:text-3xl">
             Projetos de Desenvolvimento Web
           </h1>
         </div>
@@ -17,7 +17,7 @@ export default function Homebanner() {
           {presentations.map(
             ({ title, description, date, videoUrl, url }, index) => (
               // <div key={index} className="p-4 md:w-1/2 xl:w-1/3">
-              <div key={index} className="p-4 md:w-1/2">
+              <div key={index} className="my-4 md:my-0 md:w-1/2">
                 <a href={url} target="_blank">
                   <div className="h-full overflow-hidden rounded-lg border-2 border-newpink-500 border-opacity-60">
                     <Image

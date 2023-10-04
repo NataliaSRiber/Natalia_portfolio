@@ -5,14 +5,16 @@ import Homebanner from './components/HomeBanner'
 export default function Home() {
   return (
     <main className="mx-6	mt-24 flex flex-col items-center justify-center pb-20 lg:mx-20 lg:mt-40">
-      <div className="flex w-full flex-col items-center justify-center pb-20 lg:flex-row">
-        <div className="items-center space-y-16 text-justify md:pl-6 lg:w-1/2 lg:flex-row">
-          <p className="text-4xl font-bold text-maincolor-800">
+      <div className="flex w-full flex-col items-center justify-center pb-10 lg:flex-row lg:pb-20">
+        <div className="items-center space-y-8 text-justify md:pl-6 lg:w-1/2 lg:flex-row lg:space-y-16">
+          <p className="text-center text-2xl font-bold text-maincolor-800 md:text-4xl">
             Olá, Bem-Vindo ao meu Portfólio!
           </p>
-          <div className="space-y-6">
-            <h1 className="text-2xl font-semibold">Meu nome é Natalia,</h1>
-            <h2 className="text-4xl font-bold text-newpink-500">
+          <div className="space-y-6 pb-8 lg:pb-0">
+            <h1 className="text-center text-lg font-semibold md:text-2xl">
+              Meu nome é Natalia,
+            </h1>
+            <h2 className="text-center text-2xl font-bold text-newpink-500 md:text-4xl">
               Sou Desenvolvedora Full Stack
             </h2>
           </div>
