@@ -33,10 +33,10 @@ export default function About() {
             Ao longo de mais de um ano na Alô Bebê, mergulhei no universo
             desafiador do desenvolvimento full-stack. Trabalhei em projetos
             significativos, refinando minhas habilidades em Javascript,
-            Typescript, HTML, CSS, React e Node.js. Essa experiência não apenas
-            solidificou meu conhecimento técnico, mas também me ensinou a
-            importância de criar soluções tecnológicas que atendam às
-            necessidades do usuário final.
+            Typescript, HTML, CSS, React, Node.js, MySQL, Next.js and RTL. Essa
+            experiência não apenas solidificou meu conhecimento técnico, mas
+            também me ensinou a importância de criar soluções tecnológicas que
+            atendam às necessidades do usuário final.
           </p>
           <h2 className="mb-3 mt-5 text-center text-lg font-semibold text-newpink-500 md:text-left md:text-xl">
             Design Centrado no Usuário:{' '}
