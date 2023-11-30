@@ -7,7 +7,8 @@ import Image from 'next/image'
 export default function About() {
   return (
     <section className="mx-10 mb-28 mt-40 flex flex-col gap-20">
-      <div>
+      <h3> Em construção</h3>
+      {/* <div>
         <div>
           <div>
             <h1 className="mb-6 text-center text-2xl font-bold text-maincolor-800 md:text-5xl lg:mb-10">
@@ -54,7 +55,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
