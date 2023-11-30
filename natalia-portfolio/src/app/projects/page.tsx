@@ -127,11 +127,11 @@ export default function Projects() {
       <h2 className="text-center text-2xl font-bold text-gray-700 md:text-4xl xl:mb-10">
         Projetos em UX Design
       </h2>
-      <div className="flex flex-col">
+      {/* <div className="flex flex-col">
         <div className="mb-8 flex w-full flex-col-reverse rounded-xl p-2 md:p-8 xl:flex-row">
           <div className="space-y-2 text-left xl:w-1/2 xl:pr-4">
             <h2 className="text-newgray-800 mb-6 mt-8 text-center text-2xl font-semibold md:text-4xl">
-              Aplicativo e Padaria docves sonhos
+              Aplicativo e Padaria doces sonhos
             </h2>
             <div className="space-y-4 text-justify xl:text-left">
               <p className="text-lg font-normal">
@@ -182,8 +182,8 @@ export default function Projects() {
           </div>
         </div>
         <div className="h-0.5 w-full bg-gradient-to-r from-newpink-200 via-newpink-100 to-newpink-200"></div>
-      </div>
-      <div className="flex flex-col">
+      </div> */}
+      {/* <div className="flex flex-col">
         <div className="mb-8 flex w-full flex-col-reverse rounded-xl p-2 md:p-8 xl:flex-row">
           <div className="space-y-2 text-left xl:w-1/2 xl:pr-4">
             <h2 className="text-newgray-800 mb-6 mt-8 text-center text-2xl font-semibold md:text-4xl">
@@ -237,7 +237,7 @@ export default function Projects() {
           </div>
         </div>
         <div className="h-0.5 w-full bg-gradient-to-r from-newpink-200 via-newpink-100 to-newpink-200"></div>
-      </div>
+      </div> */}
     </div>
     // <div className="mx-6 mt-24 flex flex-col items-center justify-center gap-5 lg:mx-20 lg:mt-40">
     //   <h1 className="text-center text-2xl font-bold text-gray-700 md:text-5xl lg:mb-10">
