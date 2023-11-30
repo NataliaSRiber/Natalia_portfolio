@@ -27,7 +27,7 @@ export default function About() {
             desenvolvimento web e design de experiência do usuário (UX).
           </p>
           <h2 className="mb-3 mt-5 text-center text-lg font-semibold text-newpink-500 md:text-left md:text-xl">
-            Experiência Profissional:{' '}
+            Experiência Profissional:
           </h2>
           <p className="text-lg font-normal">
             Ao longo de mais de um ano na Alô Bebê, mergulhei no universo
@@ -39,7 +39,7 @@ export default function About() {
             atendam às necessidades do usuário final.
           </p>
           <h2 className="mb-3 mt-5 text-center text-lg font-semibold text-newpink-500 md:text-left md:text-xl">
-            Design Centrado no Usuário:{' '}
+            Design Centrado no Usuário:
           </h2>
           <p className="text-lg font-normal">
             Recentemente, busquei aprimorar ainda mais minha abordagem ao
