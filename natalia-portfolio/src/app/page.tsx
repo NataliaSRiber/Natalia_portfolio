@@ -15,7 +15,7 @@ export default function Home() {
               Meu nome é Natalia,
             </h1>
             <h2 className="text-center text-2xl font-semibold text-newpink-500 md:text-left md:text-4xl">
-              Sou Desenvolvedora Full Stack
+              Sou Desenvolvedora Full Stack e UX Designer
             </h2>
           </div>
           <div>
