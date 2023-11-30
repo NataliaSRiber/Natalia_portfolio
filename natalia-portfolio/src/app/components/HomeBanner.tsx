@@ -26,15 +26,6 @@ export default function Homebanner() {
                       width={800}
                       height={800}
                     />
-                    {/* <div className="h-full cursor-pointer p-6 transition duration-300 ease-in hover:bg-newpink-500 hover:text-gray-100">
-                    <h2 className="mb-1 text-sm font-medium text-blue-300 md:text-base">
-                      {date}
-                    </h2>
-                    <h1 className="mb-3 text-xl font-semibold md:text-2xl">
-                      {title}
-                    </h1>
-                    <p className="mb-3 leading-relaxed">{description}</p>
-                  </div> */}
                   </div>
                 </a>
               </div>
@@ -47,6 +38,35 @@ export default function Homebanner() {
           <h1 className="px-2 text-xl font-semibold text-maincolor-800 md:text-3xl">
             Projetos de UX Design
           </h1>
+        </div>
+        <div className="flex flex-wrap justify-center ">
+          {uxdesign.map(
+            ({ title, description, date, videoUrl, url }, index) => (
+              // <div key={index} className="p-4 md:w-1/2 xl:w-1/3">
+              <div key={index} className="md:m2-0 my-2 px-2 md:w-1/2 ">
+                <a href={url} target="_blank">
+                  <div className="max-h-[300] overflow-hidden rounded-lg border-2 border-newpink-500 border-opacity-60">
+                    <Image
+                      className="h-full cursor-pointer hover:brightness-50"
+                      src={videoUrl}
+                      alt="dance-picture"
+                      width={800}
+                      height={800}
+                    />
+                    {/* <div className="h-full cursor-pointer p-6 transition duration-300 ease-in hover:bg-newpink-500 hover:text-gray-100">
+                      <h2 className="mb-1 text-sm font-medium text-blue-300 md:text-base">
+                        {date}
+                      </h2>
+                      <h1 className="mb-3 text-xl font-semibold md:text-2xl">
+                        {title}
+                      </h1>
+                      <p className="mb-3 leading-relaxed">{description}</p>
+                    </div> */}
+                  </div>
+                </a>
+              </div>
+            ),
+          )}
         </div>
       </div>
     </section>
