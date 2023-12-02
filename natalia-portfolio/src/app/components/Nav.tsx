@@ -8,7 +8,7 @@ export default function Nav() {
         <div className="mr-1 pt-2 text-3xl text-newpink-500">
           <div className="flex cursor-pointer items-center text-2xl font-bold">
             <Link href="/">
-              <span>Logo</span>
+              <span>NS</span>
             </Link>
           </div>
         </div>
