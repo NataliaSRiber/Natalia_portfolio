@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { routes } from '../lib/routes'
+import { setTimeout } from 'timers/promises'
 
 export default function Menu() {
   const currentRoute = usePathname()
@@ -24,6 +25,12 @@ export default function Menu() {
     return 'before:w-0 before:opacity-0'
   }
 
+  // function timer(): void {
+  //   setTimeout(() => {
+  //     setOpen(false)
+  //   }, 500)
+  // }
+
   return (
     <>
       <div
@@ -39,7 +46,11 @@ export default function Menu() {
         }`}
       >
         {routes.map(({ name, route }, index) => (
-          <li key={index} className="text-l my-7 font-bold md:my-0 md:ml-8">
+          <li
+            key={index}
+            className="text-l my-7 font-bold md:my-0 md:ml-8"
+            onClick={() => setOpen(false)}
+          >
             <Link
               href={route}
               className={`${setUnderlineOnCurrentPage(
