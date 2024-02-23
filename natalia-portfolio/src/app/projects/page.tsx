@@ -1,7 +1,9 @@
 import Image from 'next/image'
 import dancewebsite from '../../assets/developedProjects/dancegroup.png'
 import drinkswebsite from '../../assets/developedProjects/drinkswebsite.png'
-import bakeryHome from '../../assets/uxdesignprojects/oficialbakery.png'
+import portfoliowebsite from '../../assets/developedProjects/portfoliowebsite.png'
+
+// import bakeryHome from '../../assets/uxdesignprojects/oficialbakery.png'
 
 export default function Projects() {
   return (
@@ -117,6 +119,59 @@ export default function Projects() {
               <Image
                 src={drinkswebsite}
                 alt="dance_website_template"
+                className="cursor-pointer rounded-sm hover:scale-105"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="h-0.5 w-full bg-gradient-to-r from-newpink-200 via-newpink-100 to-newpink-200"></div>
+      </div>
+      <div className="flex flex-col">
+        <div className="mb-8 flex w-full flex-col-reverse rounded-xl p-2 md:p-8 xl:flex-row">
+          <div className="space-y-2 text-left xl:w-1/2 xl:pr-4">
+            <h2 className="text-newgray-800 mb-6 mt-8 text-center text-2xl font-semibold md:text-4xl">
+              Portfólio em Angular
+            </h2>
+            <div className="space-y-4 text-justify xl:text-left">
+              <p className="text-lg font-normal">
+                Meu primeiro projeto utilizando o framework Angular, onde
+                comecei a desenvolver as minhas habilidades com esta nova
+                ferramennta. É um portfólio simples e responsivo, contendo
+                algumas informações ao meu respeito{' '}
+                <a
+                  href="https://www.thecocktaildb.com/"
+                  target="_blank"
+                  className="font-semibold"
+                >
+                  aqui.
+                </a>
+              </p>
+              <div className="flex flex-col items-start md:pb-4">
+                <h4 className="text-xl font-medium  text-gray-600 md:text-xl">
+                  Linguagens utilizadas:
+                </h4>
+                <p className="text-lg">
+                  {' '}
+                  Javascript, Typescript, Angular, SCSS
+                </p>
+              </div>
+              <a href="https://github.com/NataliaSRiber/drinks" target="_blank">
+                <h4 className="text-xl font-medium text-gray-600 underline underline-offset-4 md:pb-4 md:text-xl">
+                  Repositório do projeto
+                </h4>
+              </a>
+              <a href="https://drinks-website.vercel.app/" target="_blank">
+                <h4 className="text-xl font-medium text-gray-600 underline underline-offset-4 md:pb-4 md:text-xl">
+                  Link do Website
+                </h4>
+              </a>
+            </div>
+          </div>
+          <div className="xl:w-1/2">
+            <a href="https://drinks-website.vercel.app/" target="_blank">
+              <Image
+                src={portfoliowebsite}
+                alt="angular_portfolio_website"
                 className="cursor-pointer rounded-sm hover:scale-105"
               />
             </a>
