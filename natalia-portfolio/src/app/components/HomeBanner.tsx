@@ -38,14 +38,14 @@ export default function Homebanner() {
           </h1>
         </div>
         <div className="flex flex-wrap justify-center ">
-          {uxdesign.map(({ videoUrl, url }, index) => (
+          {uxdesign.map(({ imageCover, url }, index) => (
             // <div key={index} className="p-4 md:w-1/2 xl:w-1/3">
             <div key={index} className="md:m2-0 my-2 px-2 md:w-1/2 ">
               <a href={url} target="_blank">
                 <div className="h-full overflow-hidden rounded-lg border-2 border-newpink-500 border-opacity-60">
                   <Image
                     className="h-full cursor-pointer hover:brightness-50"
-                    src={videoUrl}
+                    src={imageCover}
                     alt="dance-picture"
                     width={800}
                     height={800}
